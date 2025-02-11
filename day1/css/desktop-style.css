@@ -4,10 +4,21 @@
         height: calc(100% - 180px);
     }
 
+    /* SIDEBAR  */
+
     .col-container .sidebar {
         width: 400px;
     }
 
+    .sidebar .logo #small-logo {
+        display: none;
+    }
+
+    .sidebar .logo #big-logo {
+        display: block;
+    }
+
+    /* MAIN CONTAINER  */
     .main-container .header-bar {
         height: 180px;
     }
