@@ -1,0 +1,18 @@
+@media screen and (min-width: 478px) {
+
+    .col-container {
+        height: calc(100% - 180px);
+    }
+
+    .col-container .sidebar {
+        width: 400px;
+    }
+
+    .main-container .header-bar {
+        height: 180px;
+    }
+
+    .footer-bar {
+        height: 180px;
+    }
+}
