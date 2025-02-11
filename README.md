@@ -6,6 +6,7 @@ Nell'esercizio di oggi (salvato come progetto n.13), abbiamo come obiettivo la r
 
 Il progetto è da realizzare in 3 giorni. Ogni giorno ci vengono fornite delle immagini specifiche da replicare e delle condizioni da rispettare, in modo da procedere giorno per giorno.
 Abbiamo libertà di scelta per le @media queries. Possiamo iniziare il progetto da mobile o da desktop, e di seguito adattarci di conseguenza.
+
 Io ho deciso di impostare il progetto partendo dalla versione mobile.
 
 ### Day 1
