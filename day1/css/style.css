@@ -4,3 +4,37 @@
     box-sizing: border-box;
 }
 
+body {
+    height: 100vh;
+}
+
+/* COLUMN CONTAINER  */
+.col-container {
+    height: calc(100% - 90px);
+    background-color: #151922;
+    display: flex;
+}
+
+/* SIDEBAR CONTAINER  */
+.col-container .sidebar {
+    width: 75px;
+    flex-shrink: 0;
+    background-color: red;
+}
+
+/* MAIN CONTAINER  */
+.col-container .main-container {
+    width: calc(100% - 75px);
+    background-color: green;
+}
+/* footer  */
+
+.footer-bar{
+    height: 90px;
+    background-color: #282828;
+    /* position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    */
+}
