@@ -110,7 +110,8 @@ a {
     line-height: 50px;
     text-align: center;
     color: black;
-    font-size: 20px;
+    font-size: 30px;
+    font-weight: bold;
 }
 
 .sidebar .playlist .playlist-list li {
@@ -154,12 +155,13 @@ a {
 
 /* MAIN CONTAINER  */
 .col-container .main-container {
-    width: calc(100% - 90px);
+    width: calc(100% - 75px);
     background-color: #151922;
 }
 
 .main-container .header-bar {
     height: 90px;
+    width: 100%;
     background-color: #10151b;
 }
 /* footer  */
