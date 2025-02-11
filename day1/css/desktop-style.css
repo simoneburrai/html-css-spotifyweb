@@ -10,11 +10,32 @@
         width: 400px;
     }
 
+    /* Logo  */
+
+    .sidebar .logo {
+        margin-bottom: 60px;
+    }
+
     .sidebar .logo #small-logo {
         display: none;
     }
 
     .sidebar .logo #big-logo {
+        display: block;
+    }
+
+    /* Menu  */
+
+    .sidebar .menu-list li {
+        justify-content: left;
+        margin-bottom: 12px;
+    }
+
+    .sidebar .menu-list li img {
+        height: 50px;
+    }
+
+    .sidebar .menu-list li .category {
         display: block;
     }
 

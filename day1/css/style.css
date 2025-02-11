@@ -37,8 +37,11 @@ body {
     flex-shrink: 0;
     background-color: #000000;
     padding: 25px 20px;
+    color: #5c5c5c;
+    font-size: 20px;
 }
 
+/* LOGO  */
 .sidebar .logo {
     margin-bottom: 30px;
 }
@@ -47,6 +50,25 @@ body {
     display: none;
 }
 
+/* MENU  */
+.sidebar .menu {
+    margin-bottom: 75px;
+}
+.sidebar .menu-list li {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    justify-content: center;
+    margin-bottom: 12px;
+}
+
+.sidebar .menu-list li .category {
+    display: none;
+}
+
+.sidebar .menu-list li img {
+    height: 25px;
+}
 
 /* MAIN CONTAINER  */
 .col-container .main-container {
