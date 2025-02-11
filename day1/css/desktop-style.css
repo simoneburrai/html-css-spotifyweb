@@ -39,12 +39,18 @@
         display: block;
     }
 
+    /* Playlist  */
+
+    .sidebar .playlist {
+        display: block;
+     }
+
     /* MAIN CONTAINER  */
     .main-container .header-bar {
         height: 180px;
     }
 
-    .footer-bar {
+    footer {
         height: 180px;
     }
 }

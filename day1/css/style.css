@@ -42,6 +42,7 @@ a {
     padding: 25px 20px;
     color: #5c5c5c;
     font-size: 20px;
+    overflow-y: scroll;
 }
 
 /* LOGO  */
@@ -73,6 +74,36 @@ a {
 .sidebar .menu-list li img {
     height: 25px;
 }
+ /* Playlist  */
+
+ .sidebar .playlist {
+    display: none;
+ }
+
+ .sidebar .playlist h3 {
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+ }
+ .sidebar .playlist .playlist-create {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    margin-bottom: 50px;
+ }
+.sidebar .playlist .playlist-create .add {
+    background-color: #5c5c5c;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+}
+
+.sidebar .playlist .playlist-list li {
+    margin-bottom: 40px;
+}
 
 /* MAIN CONTAINER  */
 .col-container .main-container {
@@ -86,12 +117,11 @@ a {
 }
 /* footer  */
 
-.footer-bar{
+footer{
     height: 90px;
     background-color: #282828;
-    /* position: fixed;
+    position: fixed;
     bottom: 0px;
     left: 0px;
     width: 100%;
-    */
 }
