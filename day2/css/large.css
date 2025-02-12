@@ -1,4 +1,4 @@
-@media screen and (min-width: 478px) {
+@media screen and (min-width: 992px) {
 
     .not-display {
         display: block;
@@ -16,6 +16,7 @@
     /* Logo  */
 
     .sidebar .logo {
+        width: 90%;
         margin-bottom: 60px;
     }
 
@@ -30,8 +31,11 @@
     /* Menu  */
 
     .sidebar .menu-list li {
-        justify-content: left;
         margin-bottom: 12px;
+    }
+
+    .sidebar .menu-list li a {
+        justify-content: left;
     }
 
     .sidebar .menu-list li img {

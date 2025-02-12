@@ -8,7 +8,7 @@
 
 body {
     height: 100vh;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', serif;
 }
 
 
@@ -42,13 +42,12 @@ a {
     width: 75px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     flex-shrink: 0;
     background-color: #000000;
     padding-top: 25px;
     color: #5c5c5c;
-    font-size: 20px;
-    /* overflow-y: scroll; */
+    font-size: 18px;
+    overflow: hidden;
 }
 
 .pad-20 {
@@ -68,17 +67,21 @@ a {
 }
 
 .sidebar .menu-list li {
+    margin-bottom: 12px;
+    border: 2px solid transparent;
+}
+
+.sidebar .menu-list li a{
     display: flex;
     align-items: center;
     gap: 25px;
     justify-content: center;
-    margin-bottom: 12px;
-    border: 2px solid transparent;
 }
 
 .sidebar .menu-list li img {
     filter: brightness(0.5);
     height: 25px;
+    width: 25px;
 }
 
 .sidebar .menu-list li.home {
@@ -99,31 +102,34 @@ a {
  }
  .sidebar .playlist .playlist-create {
     display: flex;
-    gap: 25px;
+    gap: 10px;
     align-items: center;
     margin-bottom: 50px;
  }
 .sidebar .playlist .playlist-create .add {
     background-color: #5c5c5c;
-    width: 50px;
-    height: 50px;
-    line-height: 50px;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
     text-align: center;
     color: black;
-    font-size: 30px;
+    font-size: 15px;
     font-weight: bold;
 }
 
 .sidebar .playlist .playlist-list li {
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 /* Sidebar foot  */
-
-.sidebar-foot > div {
+.sidebar-foot {
+    margin-top: auto;
+}
+.sidebar-foot a {
     display: flex;
-    gap: 20px;
-    padding-bottom: 15px;
+    gap: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .sidebar-foot .download img  {
@@ -142,6 +148,7 @@ a {
     height: 30px;
 }
 
+
 .sidebar-foot hr {
     height: 2px;
     width: 95%;
@@ -157,21 +164,20 @@ a {
 .col-container .main-container {
     width: calc(100% - 75px);
     background-color: #151922;
+    overflow-y: auto;
 }
 
 .main-container .header-bar {
     height: 90px;
     width: 100%;
-    background-color: #10151b;
+    background-color: #0b0e17;
+    opacity: 0.5;
 }
 /* footer  */
 
 footer{
     height: 90px;
     background-color: #282828;
-    position: fixed;
-    bottom: 0px;
-    left: 0px;
     width: 100%;
 }
 
