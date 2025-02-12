@@ -162,17 +162,95 @@ a {
 
 /* MAIN CONTAINER  */
 .col-container .main-container {
+    position: relative;
     width: calc(100% - 75px);
     background-color: #151922;
-    overflow-y: auto;
 }
 
-.main-container .header-bar {
-    height: 90px;
+/* HEADER BAR  */
+header {
     width: 100%;
-    background-color: #0b0e17;
-    opacity: 0.5;
+    height: 90px;
+    position: fixed;
+    margin-bottom: 90px;
+    top: 0;
+    right: 0;
 }
+.main-container .header-bar {
+    width: 100%;
+    opacity: 0.6;
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 0;
+    right: 0;
+    display: flex;
+    padding: 18px;
+    justify-content: flex-end;
+}
+
+/* upgrade button  */
+.header-bar .upgrade {
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 1);
+    padding: 10px 30px;
+    border-radius: 30px;
+    border: 2px solid rgba(255, 255, 255, 1);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+/* MAIN CONTENT  */
+.main-content{
+    margin-top: 110px;
+    overflow-y: scroll;
+    color: #7b7e82;
+}
+
+
+.main-content .discovery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.main-content .discovery .discovery-category  .category{
+    min-width: calc((576px - 45px) / 4 )
+    font-size: px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+.main-content .discovery .discovery-category .glow-bar {
+    width: 40%;
+    margin: 0 auto;
+    /* background-color: transparent; */
+    border: 2px solid transparent;
+}
+
+.main-content .discovery .evidenza .glow-bar{
+    border-color: #adff2f;
+}
+
+
+.main-content .album-container {
+    padding: 40px;
+}
+
+.main-content .album-container h2 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.main-content .album-container h4 {
+    color: #ffffff;
+}
+
+
+
 /* footer  */
 
 footer{
