@@ -215,8 +215,8 @@ header {
 }
 
 .main-content .discovery .discovery-category  .category{
-    width: calc((992px - 100px) / 6 )
-    font-size: px;
+    width: calc((100% - 100px) / 6 )
+    font-size: 20px;
     font-weight: bold;
     text-transform: uppercase;
     margin-bottom: 8px;
@@ -247,20 +247,24 @@ header {
 
 .main-content .album-container h4 {
     color: #ffffff;
-    font-size: 20px;
+    font-size: 15px;
+    margin-bottom: 5px;
 }
 
 .album-container .playlist-container {
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
     width: 100%;
-    gap: 20px;
+    gap: 10px;
 }
 
 .album-container .playlist-container .playlist-content {
-    width: calc((992px - 140px) / 6);
+    max-width: calc((992px - 90px) / 6);
     text-align: center;
+}
+
+.album-container .playlist-container .playlist-content img {
+    margin-bottom: 10px;
 }
 
 
