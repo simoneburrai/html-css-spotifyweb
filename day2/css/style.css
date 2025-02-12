@@ -23,6 +23,7 @@ ul {
 
 a {
     all: unset;
+    display: inline-block;
     cursor: pointer;
 }
 
@@ -79,13 +80,24 @@ a {
 }
 
 .sidebar .menu-list li img {
-    filter: brightness(0.5);
+    opacity: 0.5;
     height: 25px;
     width: 25px;
 }
 
 .sidebar .menu-list li.home {
     border-left: 2px solid #b8f260;
+}
+
+/* Hover  */
+
+.sidebar .menu-list li a:hover{
+    opacity: 1;
+    color: white;
+}
+
+.sidebar .menu-list li a img:hover {
+    opacity: 1;
 }
 
 
@@ -120,6 +132,23 @@ a {
 .sidebar .playlist .playlist-list li {
     margin-bottom: 20px;
 }
+
+/* Hover Playlist  */
+
+.sidebar .playlist .playlist-create .add:hover {
+    background-color: white;
+}
+
+.sidebar .playlist .playlist-create a:hover {
+    color: white;
+}
+
+.sidebar .playlist .playlist-list a:hover {
+    color: white;
+}
+
+
+
 
 /* Sidebar foot  */
 .sidebar-foot {
@@ -197,6 +226,10 @@ header {
     font-weight: bold;
 }
 
+.header-bar .upgrade:hover {
+    position: relative;
+    font-size: 20px;
+}
 
 /* MAIN CONTENT  */
 .main-content{
@@ -219,6 +252,10 @@ header {
     font-weight: bold;
     text-transform: uppercase;
     margin-bottom: 8px;
+}
+
+.main-content .discovery .discovery-category  .category a:hover {
+    color: white;
 }
 
 .main-content .discovery .discovery-category .glow-bar {
@@ -264,7 +301,17 @@ header {
 }
 
 .album-container .playlist-container .playlist-content img {
+    border: 1px solid transparent;
     margin-bottom: 10px;
+    padding: 5px;
+}
+
+.album-container .playlist-container .playlist-content img:hover {
+    width: 110%;
+    margin-top: -5%;
+    margin-left: -5%;
+    padding-bottom: -5px;
+    border-color: white;
 }
 
 .album-container .playlist-subtitle {
