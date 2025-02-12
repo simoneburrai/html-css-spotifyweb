@@ -1,0 +1,12 @@
+
+@media screen and (min-width: 1400px) {
+
+    .album-container .playlist-container {
+        gap: 50px;
+    }
+    
+    .album-container .playlist-container .playlist-content {
+        max-width: calc((100% - 290px) / 6);
+    }
+    
+}

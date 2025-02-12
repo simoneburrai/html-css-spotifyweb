@@ -8,6 +8,30 @@ Il progetto è da realizzare in 3 giorni. Ogni giorno ci vengono fornite delle i
 Abbiamo libertà di scelta per le @media queries. Possiamo iniziare il progetto da mobile o da desktop, e di seguito adattarci di conseguenza.
 
 Io ho deciso di impostare il progetto partendo dalla versione mobile.
+Qui di seguito vengono illustrate le indicazionoi e le immagini di riferimento giorno per giorno, partendo dal più recente.
+
+### Day 2
+
+Ci viene fornita una folder contenente delle immagini del sito in 4 versioni, una xsmall, una small, una medium e una large. Il **DAY 2** si focalizza principalmente sulla parte a destra della side bar, ossia la main part di spotify, dove vengono mostrate le playlist, gli album e via dicendo.
+
+Qui di seguito il layout da replicare:
+
+### XSMALL VERSION
+
+![Model](https://github.com/simoneburrai/html-css-spotifyweb/blob/main/img/img-readme/spotify-xs.png?raw=true)
+
+### SMALL VERSION
+
+![Model](https://github.com/simoneburrai/html-css-spotifyweb/blob/main/img/img-readme/spotify-s.png?raw=true)
+
+### MEDIUM VERSION
+
+![Model](https://github.com/simoneburrai/html-css-spotifyweb/blob/main/img/img-readme/spotify-md.png?raw=true)
+
+### LARGE VERSION
+
+![Model](https://github.com/simoneburrai/html-css-spotifyweb/blob/main/img/img-readme/spotify-lg.png?raw=true)
+
 
 ### Day 1
 
@@ -23,6 +47,31 @@ Qui di seguito il layout da replicare:
 ## DESKTOP VERSION
 
 ![Model](https://github.com/simoneburrai/html-css-spotifyweb/blob/main/img/img-readme/desktop-day-1.jpg?raw=true)
+
+
+
+### Day 2
+
+Ci viene fornita una folder contenente delle immagini del sito in 4 versioni, una xsmall, una small, una medium e una large. Il **DAY 2** si focalizza principalmente sulla parte a destra della side bar, ossia la main part di spotify, dove vengono mostrate le playlist, gli album e via dicendo.
+
+Qui di seguito il layout da replicare:
+
+### XSMALL VERSION
+
+![Model](https://github.com/simoneburrai/html-css-spotifyweb/blob/main/img/img-readme/spotify-xs.png?raw=true)
+
+### SMALL VERSION
+
+![Model](https://github.com/simoneburrai/html-css-spotifyweb/blob/main/img/img-readme/spotify-s.png?raw=true)
+
+### MEDIUM VERSION
+
+![Model](https://github.com/simoneburrai/html-css-spotifyweb/blob/main/img/img-readme/spotify-md.png?raw=true)
+
+### LARGE VERSION
+
+![Model](https://github.com/simoneburrai/html-css-spotifyweb/blob/main/img/img-readme/spotify-lg.png?raw=true)
+
 
 ## Links
 
