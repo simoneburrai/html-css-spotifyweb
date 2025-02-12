@@ -183,7 +183,7 @@ header {
     top: 0;
     right: 0;
     display: flex;
-    padding: 18px;
+    padding: 20px 50px;
     justify-content: flex-end;
 }
 
@@ -242,7 +242,6 @@ header {
     font-size: 30px;
     font-weight: bold;
     color: #ffffff;
-    margin-bottom: 30px;
 }
 
 .main-content .album-container h4 {
@@ -254,6 +253,7 @@ header {
 .album-container .playlist-container {
     display: flex;
     flex-wrap: wrap;
+    margin-top: 30px;
     width: 100%;
     gap: 10px;
 }
@@ -267,6 +267,14 @@ header {
     margin-bottom: 10px;
 }
 
+.album-container .playlist-subtitle {
+    margin-top: 5px;
+}
+
+/* Artists section  */
+.popular-artists img {
+    border-radius: 50%;
+}
 
 /* footer  */
 
