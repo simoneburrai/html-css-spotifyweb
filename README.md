@@ -49,30 +49,6 @@ Qui di seguito il layout da replicare:
 ![Model](https://github.com/simoneburrai/html-css-spotifyweb/blob/main/img/img-readme/desktop-day-1.jpg?raw=true)
 
 
-
-### Day 2
-
-Ci viene fornita una folder contenente delle immagini del sito in 4 versioni, una xsmall, una small, una medium e una large. Il **DAY 2** si focalizza principalmente sulla parte a destra della side bar, ossia la main part di spotify, dove vengono mostrate le playlist, gli album e via dicendo.
-
-Qui di seguito il layout da replicare:
-
-### XSMALL VERSION
-
-![Model](https://github.com/simoneburrai/html-css-spotifyweb/blob/main/img/img-readme/spotify-xs.png?raw=true)
-
-### SMALL VERSION
-
-![Model](https://github.com/simoneburrai/html-css-spotifyweb/blob/main/img/img-readme/spotify-s.png?raw=true)
-
-### MEDIUM VERSION
-
-![Model](https://github.com/simoneburrai/html-css-spotifyweb/blob/main/img/img-readme/spotify-md.png?raw=true)
-
-### LARGE VERSION
-
-![Model](https://github.com/simoneburrai/html-css-spotifyweb/blob/main/img/img-readme/spotify-lg.png?raw=true)
-
-
 ## Links
 
 Qui potete trovare alcuni dei link che possono servire per la realizzazione di questo progetto:
