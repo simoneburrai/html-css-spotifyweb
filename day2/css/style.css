@@ -223,7 +223,7 @@ header {
 }
 
 .header-bar .upgrade:hover {
-    font-size: 18.5px;
+    transform: scale(1.1);
     color: rgba(255, 255, 255, 1);
     border-color: rgba(255, 255, 255, 1);
 }
@@ -304,9 +304,10 @@ header {
 }
 
 .album-container .playlist-container .playlist-content img:hover {
-    width: 110%;
+    /* width: 110%;
     margin-top: -5%;
-    margin-left: -5%;
+    margin-left: -5%; */
+    transform: scale(1.1);
     padding-bottom: -5px;
     border-color: white;
 }
