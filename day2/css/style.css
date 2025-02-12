@@ -86,7 +86,7 @@ a {
 }
 
 .sidebar .menu-list li.home {
-    border-left: 2px solid #b8f260;
+    border-left: 3px solid #b8f260;
 }
 
 /* Hover  */
@@ -137,10 +137,6 @@ a {
 
 .sidebar .playlist .playlist-create .add:hover {
     background-color: white;
-}
-
-.sidebar .playlist .playlist-create a:hover {
-    color: white;
 }
 
 .sidebar .playlist .playlist-list a:hover {
@@ -218,17 +214,18 @@ header {
 /* upgrade button  */
 .header-bar .upgrade {
     text-transform: uppercase;
-    color: rgba(255, 255, 255, 1);
+    color: rgba(255, 255, 255, 0.7);
     padding: 10px 30px;
     border-radius: 30px;
-    border: 2px solid rgba(255, 255, 255, 1);
+    border: 2px solid rgba(255, 255, 255, 0.7);
     font-size: 18px;
     font-weight: bold;
 }
 
 .header-bar .upgrade:hover {
-    position: relative;
-    font-size: 20px;
+    font-size: 18.5px;
+    color: rgba(255, 255, 255, 1);
+    border-color: rgba(255, 255, 255, 1);
 }
 
 /* MAIN CONTENT  */
