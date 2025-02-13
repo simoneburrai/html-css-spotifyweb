@@ -4,4 +4,9 @@
         max-width: calc((100% - 30px) / 4);
     }
 
+    .footer-bar .song-section, .footer-bar .volume-section {
+        width: 230px;
+    }
+
 }
+

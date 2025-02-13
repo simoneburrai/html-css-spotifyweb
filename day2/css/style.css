@@ -366,7 +366,7 @@ footer{
 
 .footer-bar .song-section {
     width: 170px;
-    flex-shrink: 0;
+    /* flex-shrink: 0; */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -473,7 +473,7 @@ footer{
 
 .volume-section {
     width: 170px;
-    flex-shrink: 0;
+    /* flex-shrink: 0; */
     display: flex;
     gap: 8px;
 }
