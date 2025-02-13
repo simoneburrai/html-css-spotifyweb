@@ -4,19 +4,4 @@
         max-width: calc((100% - 30px) / 4);
     }
 
-    .footer-bar .song-section .song-info #artist-name {
-        font-size: 15px;
-    }
-    
-
-    .footer-bar .song-section .like {
-        display: flex;
-        gap: 15px;
-        margin-left: 15px;
-    }
-    .footer-bar .song-section, .footer-bar .volume-section {
-        width: 230px;
-    }
-
 }
-
