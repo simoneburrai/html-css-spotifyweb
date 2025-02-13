@@ -62,6 +62,11 @@ a {
     padding: 0 20px;
 }
 
+/* Logo Hover  */
+.sidebar .logo:hover {
+    transform: scale(1.1);
+}
+
 /* MENU  */
 .sidebar .menu {
     margin-bottom: 75px;
@@ -96,7 +101,7 @@ a {
 }
 
 
-.sidebar a img:hover {
+.sidebar a:hover img{
     opacity: 1;
 }
 .sidebar
@@ -135,7 +140,7 @@ a {
 
 /* Hover Playlist  */
 
-.sidebar .playlist .playlist-create .add:hover {
+.sidebar .playlist .playlist-create:hover .add {
     background-color: white;
 }
 
@@ -184,6 +189,11 @@ a {
     transform: scale(1.05);
 }
 
+
+
+.sidebar-foot .download:hover img {
+    filter: brightness(1);
+}
 
 /* MAIN CONTAINER  */
 .col-container .main-container {
