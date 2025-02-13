@@ -189,13 +189,14 @@ a {
 .col-container .main-container {
     position: relative;
     width: calc(100% - 75px);
-    overflow-y: auto;
+    overflow-y: scroll;
 }
 
 /* HEADER BAR  */
 header {
     width: 100%;
     position: sticky;
+    z-index: 1;
     top: 0;
     right: 0;
 }
@@ -210,6 +211,8 @@ header {
 
 /* upgrade button  */
 .header-bar .upgrade {
+    position: relative;
+    z-index: 2;
     text-transform: uppercase;
     color: rgba(255, 255, 255, 0.7);
     padding: 10px 30px;
