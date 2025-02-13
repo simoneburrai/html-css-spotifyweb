@@ -6,7 +6,7 @@
     }
     
     .album-container .playlist-container .playlist-content {
-        max-width: calc((100% - 290px) / 6);
+        max-width: calc((100% - 250) / 6);
     }
     
 }

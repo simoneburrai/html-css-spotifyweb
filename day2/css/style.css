@@ -91,15 +91,15 @@ a {
 
 /* Hover  */
 
-.sidebar .menu-list li a:hover{
-    opacity: 1;
+.sidebar a:hover {
     color: white;
 }
 
-.sidebar .menu-list li a img:hover {
+
+.sidebar a img:hover {
     opacity: 1;
 }
-
+.sidebar
 
  /* Playlist  */
 
@@ -139,12 +139,6 @@ a {
     background-color: white;
 }
 
-.sidebar .playlist .playlist-list a:hover {
-    color: white;
-}
-
-
-
 
 /* Sidebar foot  */
 .sidebar-foot {
@@ -183,6 +177,12 @@ a {
     display: none;
 }
 
+/* Hover  */
+
+.sidebar-foot .account #account-name:hover {
+    text-decoration: underline;
+    transform: scale(1.05);
+}
 
 
 /* MAIN CONTAINER  */
@@ -196,7 +196,7 @@ a {
 header {
     width: 100%;
     height: 90px;
-    position: absolute;
+    position: sticky;
     margin-bottom: 90px;
     top: 0;
     right: 0;
@@ -206,9 +206,8 @@ header {
     background-color: rgba(0, 0, 0, 0.3);
     top: 0;
     right: 0;
-    display: flex;
     padding: 20px 50px;
-    justify-content: flex-end;
+    text-align: right;
 }
 
 /* upgrade button  */
@@ -218,7 +217,7 @@ header {
     padding: 10px 30px;
     border-radius: 30px;
     border: 2px solid rgba(255, 255, 255, 0.7);
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
 }
 
@@ -293,7 +292,7 @@ header {
 }
 
 .album-container .playlist-container .playlist-content {
-    width: calc((100% - 40px) / 2);
+    width: calc((100% - 10px) / 2);
     text-align: center;
 }
 
