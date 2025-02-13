@@ -419,29 +419,55 @@ footer{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    flex-grow: 1;
+    gap: 10px;
+    width: 40%;
+    flex-shrink: 1;
 }
+
+/* Commands  */
+
 .reproduce-section .commands {
     display: flex;
     justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.reproduce-section .commands .command-left {
+    display: flex;
     gap: 20px;
 }
 
+.reproduce-section .commands .command-right {
+    display: flex;
+    gap: 20px;
+}
 .reproduce-section .commands .play-btn {
     height: 30px;
     width: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 10px;
     border: 3px solid white;
     border-radius: 50%;
-
 }
 
 .reproduce-section .commands .play-btn .fa-play {
     margin-left: 3px;
 }
+
+/* Time bar  */
+.reproduce-section .time-bar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.reproduce-section .time-bar .time {
+    font-size: 13px;
+    font-weight: bold;
+}
+
 
 /* Volume Section  */
 
@@ -452,17 +478,19 @@ footer{
     gap: 8px;
 }
 
+/* icons  */
+
 .volume-section .icons {
     display: flex;
     gap: 8px;
 }
-
+/* volume bar  */
 .volume-section .volume-bar {
     width: 60%;
     display: flex;
 }
 
-.volume-section .bar {
+ .bar {
     height: 4px;
     width: 100%;
     background-color: #5a5a5a;
@@ -470,7 +498,7 @@ footer{
     align-self: center;
 }
 
-.volume-section .inside-bar{
+.inside-bar{
     display: block;
     width: 30%;
     height: 4px;
