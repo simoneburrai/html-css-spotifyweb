@@ -1,0 +1,7 @@
+@media screen and (min-width: 768px) {
+    
+    .album-container .playlist-container .playlist-content {
+        max-width: calc((100% - 30px) / 4);
+    }
+
+}

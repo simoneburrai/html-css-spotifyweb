@@ -1,0 +1,71 @@
+@media screen and (min-width: 576px) {
+
+    .not-display {
+        display: block;
+    }
+    /* SIDEBAR  */
+
+    .header-not-display {
+        display: block;
+    }
+
+    .col-container .sidebar {
+        width: 230px;
+    }
+
+    /* Logo  */
+
+    .sidebar .logo {
+        width: 90%;
+        margin-bottom: 60px;
+    }
+
+    .sidebar .logo #small-logo {
+        display: none;
+    }
+
+    .sidebar .logo #big-logo {
+        display: block;
+    }
+
+    /* Menu  */
+
+    .sidebar .menu-list li {
+        margin-bottom: 12px;
+    }
+
+    .sidebar .menu-list li a {
+        justify-content: left;
+    }
+
+    .sidebar .menu-list li img {
+        height: 30px;
+    }
+
+    .sidebar .menu-list li .category {
+        display: block;
+    }
+
+    /* Playlist  */
+
+    .sidebar .playlist {
+        display: block;
+     }
+
+     /* Sidebarr Foot  */
+
+     .sidebar-foot > div {
+        display: flex;
+        gap: 20px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    .sidebar-foot hr {
+        display: block;
+    }
+
+    /* MAIN CONTAINER  */
+
+
+}
