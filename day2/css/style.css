@@ -358,16 +358,18 @@ footer{
     justify-content: space-between;
     color: white;
     align-items: center;
-    padding: 10px;
+    padding: 15px;
+    gap: 20px;
 }
 
 /* Song section  */
 
 .footer-bar .song-section {
-    width: 160px;
+    width: 170px;
     flex-shrink: 0;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 /* Song  */
@@ -382,18 +384,22 @@ footer{
 }
 
 .footer-bar .song-section .song-info #artist-name {
-
+    font-weight: bold;
+    font-size: 15px;
 }
 
 .footer-bar .song-section .song-info #song-name {
-    
+    color: #878787 ;
+    font-weight: bold;
+    font-size: 13px;
 }
 
-
+.footer-bar .song-section .song .image {
+    align-content: center;
+}
 
 .footer-bar .song-section .song img {
     width: 50px;
-    align-self: center;
 }
 
 /* Likes  */
@@ -410,15 +416,64 @@ footer{
 
 .reproduce-section {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
     flex-grow: 1;
 }
+.reproduce-section .commands {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
 
+.reproduce-section .commands .play-btn {
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+    border: 3px solid white;
+    border-radius: 50%;
+
+}
+
+.reproduce-section .commands .play-btn .fa-play {
+    margin-left: 3px;
+}
 
 /* Volume Section  */
 
 .volume-section {
-    width: 160px;
+    width: 170px;
     flex-shrink: 0;
     display: flex;
+    gap: 8px;
+}
+
+.volume-section .icons {
+    display: flex;
+    gap: 8px;
+}
+
+.volume-section .volume-bar {
+    width: 60%;
+    display: flex;
+}
+
+.volume-section .bar {
+    height: 4px;
+    width: 100%;
+    background-color: #5a5a5a;
+    border-radius: 8px;
+    align-self: center;
+}
+
+.volume-section .inside-bar{
+    display: block;
+    width: 30%;
+    height: 4px;
+    background-color: #c1c1c1;
+    border-radius: 8px;
 }
