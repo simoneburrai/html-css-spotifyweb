@@ -349,11 +349,12 @@ header {
 footer{
     height: 90px;
     background-color: #282828;
-    width: 100%;
+    width: 100vw;
 }
 
 .footer-bar {
     height: 100%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     color: white;
@@ -385,7 +386,7 @@ footer{
 
 .footer-bar .song-section .song-info #artist-name {
     font-weight: bold;
-    font-size: 15px;
+    font-size: 13px;
 }
 
 .footer-bar .song-section .song-info #song-name {
@@ -404,7 +405,9 @@ footer{
 
 /* Likes  */
 .footer-bar .song-section .like {
-    margin-right: 0;
+    color: rgba(255, 255, 255, 0.5);
+    margin-left: 10px;
+    font-size: 20px;
 }
 
 .footer-bar .song-section .like a {
@@ -475,14 +478,14 @@ footer{
     width: 170px;
     /* flex-shrink: 0; */
     display: flex;
-    gap: 8px;
+    gap: 10px;
 }
 
 /* icons  */
 
 .volume-section .icons {
     display: flex;
-    gap: 8px;
+    gap: 10px;
 }
 /* volume bar  */
 .volume-section .volume-bar {
@@ -496,6 +499,8 @@ footer{
     background-color: #5a5a5a;
     border-radius: 8px;
     align-self: center;
+    position: relative;
+    display: flex;
 }
 
 .inside-bar{
@@ -504,4 +509,48 @@ footer{
     height: 4px;
     background-color: #c1c1c1;
     border-radius: 8px;
+}
+
+
+/* Footer Hover  */
+
+.footer-bar .song-section .song-info #song-name:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.footer-bar .song-section .like a:hover {
+    color: rgba(255, 255, 255, 1);
+}
+
+.footer-bar .bar:hover .inside-bar {
+    background-color:deepskyblue;
+}
+
+.footer-bar .bar:hover {
+    cursor: pointer;
+}
+
+.footer-bar .bar:hover::after {
+    content: "";
+    position: absolute;
+    align-self: center;
+    left: 28%;
+    width: 10px;
+    height: 10px;
+    background-color: grey;
+    border: 2px solid white;
+    border-radius: 50%;
+
+}
+
+.footer-bar .reproduce-section .commands .play-btn:hover {
+    transform: scale(1.2);
+    text-shadow: 1px 1px 5px #ffffff, 1px 1px 3px #9f9f9f;
+    cursor: pointer;
+}
+
+.footer-bar a i:hover {
+    transform: scale(1.1);
+    text-shadow: 1px 1px 5px #ffffff, 1px 1px 3px #9f9f9f;
 }
