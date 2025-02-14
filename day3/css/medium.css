@@ -4,6 +4,9 @@
         max-width: calc((100% - 30px) / 4);
     }
 
+    .footer-bar .song-section {
+        width: 230px;
+    }
     .footer-bar .song-section .song-info #artist-name {
         font-size: 15px;
     }
